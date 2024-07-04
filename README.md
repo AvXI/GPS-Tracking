@@ -1,1 +1,2 @@
 # GPS-Tracking
+This code uses the Geopy library to get the current location coordinates, and then calculates the distance between the current location and a specified target location using the geodesic function. If the distance is less than 50 meters, the code logs the current location and waits for 10 seconds before checking again. If the distance is greater than or equal to 50 meters, the code waits for 60 seconds before checking again.
